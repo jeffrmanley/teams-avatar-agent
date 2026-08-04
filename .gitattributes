@@ -1,0 +1,4 @@
+# Ensure binary files are never newline-mangled
+*.png binary
+*.zip binary
+*.pfx binary

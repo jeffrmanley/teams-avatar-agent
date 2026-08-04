@@ -1,0 +1,61 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "version": "0.1.0",
+  "id": "11111111-1111-1111-1111-111111111111",
+  "packageName": "com.contoso.bot",
+  "developer": {
+    "name": "Contoso Ltd",
+    "websiteUrl": "https://example.com",
+    "privacyUrl": "https://example.com/privacy",
+    "termsOfUseUrl": "https://example.com/terms"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Iris",
+    "full": "Iris — AI meeting participant"
+  },
+  "description": {
+    "short": "AI assistant that joins Teams meetings with a photoreal avatar.",
+    "full": "Iris is an experimental AI meeting participant powered by Claude Sonnet 4.5 with a real-time photoreal avatar. Add Iris to a meeting and she will introduce herself (EU AI Act Article 50 disclosure), transcribe the conversation in real time, and respond when spoken to. Iris is not a production service — it is a research preview deployed by Contoso Ltd."
+  },
+  "accentColor": "#4f46e5",
+  "bots": [
+    {
+      "botId": "11111111-1111-1111-1111-111111111111",
+      "scopes": [
+        "personal",
+        "team",
+        "groupchat"
+      ],
+      "supportsCalling": true,
+      "supportsVideo": true,
+      "isNotificationOnly": false,
+      "commandLists": [
+        {
+          "scopes": [
+            "personal",
+            "groupchat",
+            "team"
+          ],
+          "commands": [
+            {
+              "title": "Help",
+              "description": "Show what Iris can do in this meeting."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "bot.example.com"
+  ]
+}

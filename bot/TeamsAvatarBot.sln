@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F5812542-6EAF-4199-89D3-EBE9D412A23F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamsAvatarBot.Host", "src\TeamsAvatarBot.Host\TeamsAvatarBot.Host.csproj", "{2B76FC08-361C-4813-881C-E93D83C8B48C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamsAvatarBot.Core", "src\TeamsAvatarBot.Core\TeamsAvatarBot.Core.csproj", "{CE7608D6-4A8F-4ADC-8F12-9F036BEDF085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamsAvatarBot.LiveKitBridge", "src\TeamsAvatarBot.LiveKitBridge\TeamsAvatarBot.LiveKitBridge.csproj", "{544CEAA8-6A81-49BD-A3B8-D6E5C1877E9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1E5C1377-B229-4207-9CBC-D2940FA25446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamsAvatarBot.Tests", "tests\TeamsAvatarBot.Tests\TeamsAvatarBot.Tests.csproj", "{51D28228-870D-4E33-BEDE-134618851CEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B76FC08-361C-4813-881C-E93D83C8B48C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B76FC08-361C-4813-881C-E93D83C8B48C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B76FC08-361C-4813-881C-E93D83C8B48C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B76FC08-361C-4813-881C-E93D83C8B48C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE7608D6-4A8F-4ADC-8F12-9F036BEDF085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7608D6-4A8F-4ADC-8F12-9F036BEDF085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7608D6-4A8F-4ADC-8F12-9F036BEDF085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7608D6-4A8F-4ADC-8F12-9F036BEDF085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{544CEAA8-6A81-49BD-A3B8-D6E5C1877E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{544CEAA8-6A81-49BD-A3B8-D6E5C1877E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{544CEAA8-6A81-49BD-A3B8-D6E5C1877E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{544CEAA8-6A81-49BD-A3B8-D6E5C1877E9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D28228-870D-4E33-BEDE-134618851CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D28228-870D-4E33-BEDE-134618851CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D28228-870D-4E33-BEDE-134618851CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D28228-870D-4E33-BEDE-134618851CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B76FC08-361C-4813-881C-E93D83C8B48C} = {F5812542-6EAF-4199-89D3-EBE9D412A23F}
+		{CE7608D6-4A8F-4ADC-8F12-9F036BEDF085} = {F5812542-6EAF-4199-89D3-EBE9D412A23F}
+		{544CEAA8-6A81-49BD-A3B8-D6E5C1877E9D} = {F5812542-6EAF-4199-89D3-EBE9D412A23F}
+		{51D28228-870D-4E33-BEDE-134618851CEF} = {1E5C1377-B229-4207-9CBC-D2940FA25446}
+	EndGlobalSection
+EndGlobal

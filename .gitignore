@@ -1,0 +1,77 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.key
+certs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+.python-version
+
+# uv
+.uv/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+TestResults/
+*.coverage
+*.coveragexml
+project.lock.json
+*.nupkg
+*.snupkg
+.nuget/
+
+# Rider / VS
+.idea/
+.vscode/
+
+# Logs (application logs stay under logs/, but transient/local logs are ignored)
+logs/*.log
+logs/turns/*.jsonl
+logs/meetings/*/
+*.log.*
+!logs/.gitkeep
+!logs/turns/.gitkeep
+!logs/meetings/.gitkeep
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Bot reference clone (large; not versioned in our repo)
+bot/reference/
+
+# ASP.NET Core / Kestrel runtime caches written next to the host
+**/ecs-cache/
+
+# Local overrides
+*.local.json
+settings.local.json
+
+# Built Teams app packages (rebuild with teams-app/build.py)
+teams-app/*.zip

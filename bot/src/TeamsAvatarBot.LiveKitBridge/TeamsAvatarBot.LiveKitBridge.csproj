@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\TeamsAvatarBot.Core\TeamsAvatarBot.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Livekit.Rtc.Dotnet" Version="0.1.2" />
+    <PackageReference Include="Livekit.Server.Sdk.Dotnet" Version="1.2.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.7" />
+    <PackageReference Include="Microsoft.Graph.Communications.Calls" Version="1.2.0.15690" />
+    <PackageReference Include="Microsoft.Graph.Communications.Calls.Media" Version="1.2.0.15690" />
+    <PackageReference Include="Microsoft.Graph.Communications.Client" Version="1.2.0.15690" />
+    <PackageReference Include="Microsoft.Skype.Bots.Media" Version="1.33.0.258-preview" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="TeamsAvatarBot.Tests" />
+  </ItemGroup>
+
+</Project>
